@@ -33,6 +33,9 @@ scanf("%f", &GDP1);
 printf("Digite o número de pontos turísticos: \n");
 scanf("%d", &Tourist1);
 
+float density1 = (float)Population1 / Area1; //calculo da densidade demografica carta 1
+printf("Densidade Demográfica: %.2f\n", density1);
+
 printf("\n");
 printf("CADASTRANDO A SEGUNDA CARTA\n");
 printf("\n");
@@ -57,6 +60,10 @@ scanf("%f", &GDP2);
 
 printf("Digite o número de pontos turísticos: \n");
 scanf("%d", &Tourist2);
+
+float density2 = (float)Population2 / Area2; //calculo da densidade demografica carta 2
+printf("Densidade Demográfica: %.2f\n", density2);
+
 
 printf("\n");
 printf("Cartas cadastradas com sucesso!\n");
